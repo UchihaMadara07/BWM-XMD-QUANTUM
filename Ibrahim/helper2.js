@@ -1,10 +1,10 @@
 
 // utils/contextManager.js
 const NEWS_LETTER_JID = "120363285388090068@newsletter";
-const BOT_NAME = "BWM-XMD";
+const BOT_NAME = "OBITO";
 const thumbnails = [
-                "https://files.catbox.moe/165qf7.jpg",
-                "https://files.catbox.moe/24j10y.jpeg"
+                "https://files.catbox.moe/qi2do6.png",
+                "https://files.catbox.moe/c4zze2.png"
             ];
 
             // Select a random thumbnail
@@ -22,7 +22,7 @@ const createContext2 = (userJid, options = {}) => ({
         },
         externalAdReply: {
             title: options.title || BOT_NAME,
-            body: options.body || "Premium WhatsApp Bot Solution",
+            body: options.body || "Premium WhatsApp Bot",
             thumbnailUrl: options.thumbnail || DEFAULT_THUMBNAIL,
             mediaType: 1,
             showAdAttribution: true,
